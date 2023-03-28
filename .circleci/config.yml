@@ -122,7 +122,7 @@ jobs:
       - run:
           name: Scan Backend
           command: |
-            cd frontend
+            cd backtend
             npm install
             npm audit fix --audit-level=critical
 
